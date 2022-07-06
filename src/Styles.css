@@ -1,0 +1,104 @@
+.body {
+  display: flex;
+  flex-direction: reverse;
+  width: 1000px;
+  padding: 0;
+}
+
+.infopanel {
+  background-color: rgb(232, 152, 179);
+}
+
+.search {
+  background-color: rgb(220, 94, 136);
+  padding: 10px;
+  height: 80px;
+}
+
+.chatinfo {
+  background-color: rgb(232, 152, 179);
+}
+.chatinfo > * {
+  padding: 10px;
+}
+
+.chatdiv {
+  display: flex;
+  flex-direction: reverse;
+  background-color: rgb(247, 185, 219);
+  border: solid 1px;
+  border-color: rgb(128, 43, 71);
+}
+
+.chatdiv > * {
+  margin-right: 20px;
+}
+
+.person {
+  background-color: rgb(188, 79, 115);
+  height: 100px;
+  display: flex;
+  flex-direction: reverse;
+}
+
+.person > * {
+  margin-right: 50px;
+  padding: 10px;
+}
+
+.dialoge {
+  background-color: rgb(249, 196, 225);
+}
+
+.entryfield {
+  padding: 10px;
+  margin-left: 70px;
+  margin-right: 100px;
+}
+.entryfieldd {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.inputsms {
+  width: 350px;
+  height: 25px;
+  background: #f9f9f9;
+  color: rgb(196, 26, 83);
+  border: none;
+  border-radius: 5px;
+
+  font-size: larger;
+  padding-left: 15px;
+}
+
+/* .textfield{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between ;
+  align-items: flex-end;
+} */
+
+.data {
+  margin-left: 100px;
+}
+
+/* .field>* {
+     padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px; 
+
+ }  */
+a {
+  color: black;
+}
+.is-hidden {
+  display: none;
+}
+.mySms {
+  text-align: right;
+}
+.Sms {
+  text-align: left;
+}
